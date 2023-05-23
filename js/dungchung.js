@@ -517,11 +517,13 @@ function addProduct(p, ele, returnString) {
 
 // Thêm topnav vào trang
 function addTopNav() {
-    document.write(`    
+    const linkFb = "https://www.facebook.com/profile.php?id=100092451957762";
+   document.write(`    
 	<div class="top-nav group">
         <section>
             <div class="social-top-nav">
-                <a class="fa fa-facebook"></a>
+                
+                <a class="fa fa-facebook" href=${linkFb}></a>
                 <a class="fa fa-twitter"></a>
                 <a class="fa fa-google"></a>
                 <a class="fa fa-youtube"></a>
@@ -545,7 +547,7 @@ function addHeader() {
 	<div class="header group">
         <div class="logo">
             <a href="index.html">
-                <img src="img/logo.jpg" alt="Trang chủ Smartphone Store" title="Trang chủ Smartphone Store">
+                <h2 class="mx-3">Phuc Long Mobile</h2>
             </a>
         </div> <!-- End Logo -->
 
